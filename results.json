@@ -1,0 +1,218 @@
+{
+  "A10": {
+    "question_id": "A10",
+    "found": false,
+    "answer": "Aucune réponse fournie pour le nom et prénom.",
+    "confidence": "high"
+  },
+  "A20": {
+    "question_id": "A20",
+    "found": false,
+    "answer": "L'âge approximatif n'est pas mentionné dans la transcription.",
+    "confidence": "high"
+  },
+  "A30": {
+    "question_id": "A30",
+    "found": true,
+    "answer": "Mon handicap moteur, j'ai du mal à parler, j'ai aussi du mal à bouger.",
+    "confidence": "high"
+  },
+  "A40": {
+    "question_id": "A40",
+    "found": true,
+    "answer": "Je crois qu'il faut qu'ils comprennent tout ce que je dis, pas que la moitié.",
+    "confidence": "high"
+  },
+  "B10": {
+    "question_id": "B10",
+    "found": true,
+    "answer": "J'utilise internet à la maison à peu près 2-3 fois par jour pour pouvoir communiquer avec les autres.",
+    "confidence": "high"
+  },
+  "B20": {
+    "question_id": "B20",
+    "found": true,
+    "answer": "J'utilise principalement mon ordinateur et aussi mon smartphone la journée. Par contre, je n'utilise pas de tablette.",
+    "confidence": "high"
+  },
+  "B30": {
+    "question_id": "B30",
+    "found": true,
+    "answer": "Oui, il y a des sites où je ne peux pas vraiment interagir avec l'information. Le site ne me permet pas de passer d'une image à l'autre ou de comprendre vraiment ce que je dois lire.",
+    "confidence": "high"
+  },
+  "C10": {
+    "question_id": "C10",
+    "found": true,
+    "answer": "Oui, j'ai déjà utilisé Siri sur mon téléphone et aussi chat GPT une fois sur l'ordinateur.",
+    "confidence": "high"
+  },
+  "C20": {
+    "question_id": "C20",
+    "found": true,
+    "answer": "Siri pour lui demander d'envoyer des messages à des gens que je connais. Sinon aussi pour lui dire de me faire un rappel, j'ai utilisé ChatGPT une fois pour lui demander une information sur comment faire une tarte aux pommes.",
+    "confidence": "high"
+  },
+  "C30": {
+    "question_id": "C30",
+    "found": true,
+    "answer": "Je utilise principalement mon ordinateur et aussi mon smartphone la journée. Par contre, je n'utilise pas de tablette.",
+    "confidence": "high"
+  },
+  "D10": {
+    "question_id": "D10",
+    "found": true,
+    "answer": "Je suis plutôt content parce que ça interagit un peu comme un humain.",
+    "confidence": "high"
+  },
+  "D20": {
+    "question_id": "D20",
+    "found": true,
+    "answer": "Je crois qu'il faut qu'ils comprennent tout ce que je dis, pas que la moitié.",
+    "confidence": "high"
+  },
+  "D30": {
+    "question_id": "D30",
+    "found": true,
+    "answer": "Ce n'est pas toujours facile de savoir quand je peux prendre la main. Il y a des fois où le chatbot marche et il y a des fois où je ne peux pas aller dans... dans les autres informations. Du coup, par exemple, j'ai des chatbots que je n'ai pas évoqués, mais les chatbots de banque, souvent sur les sites web, ça ne marche pas trop bien. Du coup, je n'arrive pas vraiment à interagir avec. Ça bloque quand je passe.",
+    "confidence": "high"
+  },
+  "D40": {
+    "question_id": "D40",
+    "found": true,
+    "answer": "Non, en général, ça marche plutôt bien. Je comprends bien ce qu'il me dit, le chatbot.",
+    "confidence": "high"
+  },
+  "D50": {
+    "question_id": "D50",
+    "found": true,
+    "answer": "Oui, des fois Siri n'est pas très réactif, ça ne marche pas très bien, il faut que je le répète plein de fois. Des fois ça marche bien, mais ce n'est pas toujours comme ça, ça dépend.",
+    "confidence": "high"
+  },
+  "E10": {
+    "question_id": "E10",
+    "found": true,
+    "answer": "Oui, une fois à Syrie, parce que je voulais qu'il m'envoie un message et ça ne marchait pas. Du coup, j'ai dû demander à un ami qu'il m'aide.",
+    "confidence": "high"
+  },
+  "E20": {
+    "question_id": "E20",
+    "found": true,
+    "answer": "L'utilité, c'est que des fois c'est bien de voir les images aussi, et sinon si tu comprends bien, ça va.",
+    "confidence": "high"
+  },
+  "E30": {
+    "question_id": "E30",
+    "found": true,
+    "answer": "Oui, une fois le chatbot de la banque, il n'a pas marché avec mon stick. Ça ne marchait pas du tout.",
+    "confidence": "high"
+  },
+  "F10": {
+    "question_id": "F10",
+    "found": true,
+    "answer": "Comme je disais, que ce soit joli, mais qu'ils comprennent bien ce que je dis.",
+    "confidence": "high"
+  },
+  "F20": {
+    "question_id": "F20",
+    "found": true,
+    "answer": "Les fonctionnalités indispensables pour moi dans un chatbot, c'est le fait qu'il soit joli et qu'il comprenne ce que je dis et qu'il réponde bien. Je veux qu'il ne prenne pas trop de place sur l'écran et que pourtant je puisse parler avec lui. J'aimerais pouvoir parler avec les chatbots qui sont sur internet, parce que souvent c'est qu'à l'écrit. J'ai bien aimé ChatGPT parce qu'il répond à tout et on a l'impression de parler avec un humain.",
+    "confidence": "high"
+  },
+  "F30": {
+    "question_id": "F30",
+    "found": false,
+    "answer": "Aucune réponse spécifique à la question sur les instructions claires du chatbot n'a été trouvée dans la transcription.",
+    "confidence": "high"
+  },
+  "F40": {
+    "question_id": "F40",
+    "found": true,
+    "answer": "Moi j'aime bien quand il répond simplement, je ne veux pas de grande phrase, je veux simple et efficace, je préfère interagir avec lui pour lui dire si ça va ou pas.",
+    "confidence": "high"
+  },
+  "F50": {
+    "question_id": "F50",
+    "found": true,
+    "answer": "Je crois qu'il faut qu'ils comprennent tout ce que je dis, pas que la moitié.",
+    "confidence": "high"
+  },
+  "F60": {
+    "question_id": "F60",
+    "found": false,
+    "answer": "Aucune réponse spécifique à la question sur la confirmation des actions par le chatbot n'a été trouvée dans la transcription.",
+    "confidence": "high"
+  },
+  "F70": {
+    "question_id": "F70",
+    "found": false,
+    "answer": "Aucune réponse trouvée concernant l'importance d'interrompre la conversation et de la reprendre plus tard ou l'enregistrement de la conversation.",
+    "confidence": "high"
+  },
+  "G10": {
+    "question_id": "G10",
+    "found": true,
+    "answer": "Je crois qu'il faut qu'ils comprennent tout ce que je dis, pas que la moitié.",
+    "confidence": "high"
+  },
+  "G20": {
+    "question_id": "G20",
+    "found": false,
+    "answer": "Aucune réponse spécifique à la question sur l'emplacement du chatbot sur la page n'a été trouvée dans la transcription.",
+    "confidence": "high"
+  },
+  "G30": {
+    "question_id": "G30",
+    "found": false,
+    "answer": "Aucune réponse spécifique à la question sur la préférence d'un bouton pour réduire le chatbot pendant la navigation n'a été trouvée dans la transcription.",
+    "confidence": "high"
+  },
+  "G40": {
+    "question_id": "G40",
+    "found": false,
+    "answer": "Aucune réponse spécifique à la question sur la présentation de la conversation avec le chatbot n'a été trouvée dans la transcription.",
+    "confidence": "high"
+  },
+  "G50": {
+    "question_id": "G50",
+    "found": false,
+    "answer": "Aucune réponse spécifique à la question sur les réponses progressives du chatbot n'a été trouvée dans la transcription.",
+    "confidence": "high"
+  },
+  "H10": {
+    "question_id": "H10",
+    "found": false,
+    "answer": "Aucune réponse spécifique à la question sur la personnalisation de l'apparence du chatbot n'a été trouvée dans la transcription.",
+    "confidence": "high"
+  },
+  "H20": {
+    "question_id": "H20",
+    "found": false,
+    "answer": "Aucune réponse trouvée concernant l'utilisation de couleurs pour les messages.",
+    "confidence": "high"
+  },
+  "I10": {
+    "question_id": "I10",
+    "found": true,
+    "answer": "Je ne crois pas trop, non.",
+    "confidence": "high"
+  },
+  "I20": {
+    "question_id": "I20",
+    "found": true,
+    "answer": "Un peu des fois, mais pas toujours.",
+    "confidence": "high"
+  },
+  "I30": {
+    "question_id": "I30",
+    "found": true,
+    "answer": "Je dirais, continuez. Continuez. C'est bien de penser à nous.",
+    "confidence": "high"
+  },
+  "I40": {
+    "question_id": "I40",
+    "found": true,
+    "answer": "Qu'ils soient plus partout et qu'ils comprennent tout. Que je parle à l'ordinateur pour tout et qu'il me redonne toujours la bonne réponse.",
+    "confidence": "high"
+  }
+}

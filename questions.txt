@@ -1,0 +1,106 @@
+
+A10- Nom et prénom (facultatif)
+
+A20- Âge (approximatif).
+
+A30- Est-ce un handicap visuel, auditif, moteur, cognitif, ou autre ? (si l'utilisateur est à l'aise d'en parler).
+
+A40- Utilisez-vous des outils ou fonctionnalités spécifiques pour vous aider à utiliser internet (lecteur d'écran, commandes vocales, etc.) ?
+
+B10- Où utilisez-vous généralement des sites web ou technologies ? (maison, travail, etc.).
+
+B20- Utilisez-vous principalement un ordinateur, un smartphone, une tablette, ou autre ?
+
+B30- Quels outils d'assistance spécifiques utilisez-vous ? Fonctionnent-ils bien sur tous les sites ?
+
+
+C10- Avez-vous déjà utilisé des chatbots ? Si oui lesquels ? 
+
+C20- Dans quel contexte les utilisez vous ? Pour quoi faire ? (recherche d’information, service client, intelligence artificielle, interaction vocale ? )
+
+C30- Les utilisez-vous principalement un ordinateur, un smartphone, une tablette, ou autre ?
+
+
+D10- Comment vous sentez-vous en interagissant avec des chatbots ? Frustration ? Satisfaction ?
+ 
+D20- Utilisez-vous des technologies d’assistance pour interagir avec les chatbots ?
+	•	Par exemple, des lecteurs d’écran, des commandes vocales ou des claviers spécialisés. 
+ 	•	Quelles fonctionnalités de votre technologie d’assistance vous permet d’interragir avec les chatbots ? 
+
+D30- Les chatbot fonctionne-t-il bien avec vos outils d’assistance ?
+	•	Y a-t-il des aspects difficiles, comme naviguer dans la conversation ou cliquer sur les boutons ?
+
+D40- Trouvez-vous les réponses des chatbots faciles à comprendre ? Y a-t-il des aspects spécifiques qui posent problème (vocabulaire trop technique, réponses ambiguës, etc.) ?
+
+D50- Comment évaluez-vous la qualité des interactions avec les chatbots ? (ex. : difficulté à obtenir des réponses pertinentes ou des actions spécifiques).
+
+
+E10- Avez-vous déjà abandonné l’utilisation d’un chatbot à cause d’une difficulté spécifique ? Si oui, pourquoi ?
+
+E20- Quels sont les principaux freins à l’utilisation des chatbots ? 
+
+E30- Avez-vous rencontré des chatbots qui ne fonctionnaient pas bien avec vos technologies d’assistance ? Pouvez-vous donner des exemples ?
+
+
+F10- Qu'est-ce qui rendrait l'utilisation d'un chatbot agréable et facile pour vous ?
+
+F20- Quelles fonctionnalités sont indispensables dans un chatbot pour vous ? Exemples de chatbot ou d’assistant vocaux bien conçus ?
+
+F30- Aimeriez-vous que le chatbot donne des instructions claires à chaque étape ?
+	•	Par exemple, des rappels pour utiliser certaines fonctions ou des exemples de questions.
+	•	Les instructions étape par étape vous aideraient-elles à mieux comprendre comment utiliser le chatbot ?
+
+F40- Préférez-vous des réponses courtes et simples ou des explications détaillées ?
+	•	Aimeriez-vous pouvoir choisir entre une réponse courte et une réponse plus longue selon vos besoins ?
+
+F50- Quand le chatbot ne comprend pas votre question, que devrait-il faire ?
+	•	Préférez-vous qu’il propose des questions types ou reformule pour vous aider à clarifier ?
+
+F60- Préférez-vous que le chatbot confirme chaque action que vous faites ?
+	•	Par exemple, un message comme « Votre message a été envoyé » ou « Le chatbot est en train de répondre ».
+	•	Cela vous aiderait-il à mieux suivre la conversation ?
+
+F70- Est-il important pour vous de pouvoir interrompre la conversation et de la reprendre plus tard ?
+	•	Souhaitez-vous que la conversation soit enregistrée pour reprendre là où vous vous êtes arrêté la prochaine fois ?
+
+G10- Quelles fonctionnalités ou adaptations rendraient l’utilisation des chatbots plus accessible pour vous ?
+"Quelles fonctionnalités ou adaptations rendraient l’utilisation des chatbots plus accessible pour vous ?
+	•	Par exemple, des options de lecture audio, des descriptions plus claires, ou des raccourcis pour naviguer plus facilement."
+
+G20- Où le chatbot devrait-il se trouver sur la page ?
+	•	Préféreriez-vous que l’accès au chatbot soit en haut de la page ou en bas ? 	
+•	Avez-vous des astuces pour retrouver facilement le champ d’interaction avec le chatbot ?
+
+G30- Lorsque le chatbot est associé à une page web (par exemple, le support d’une banque), 
+préférez-vous un bouton pour réduire le chatbot pendant la navigation ?
+Serait-il utile de rouvrir facilement le chatbot si besoin ?
+
+G40- Comment la conversation avec le chatbot doit-elle être présentée ?
+	•	Préférez-vous une présentation en liste ou en titres ?
+	•	Avez-vous des suggestions pour faciliter la navigation dans la conversation ?
+	•	Souhaitez-vous une manière de distinguer qui parle (vous ou le chatbot) ?
+
+G50- Pour les réponses progressives du chatbot :
+	•	Est-il facile pour vous de suivre une réponse qui s’affiche progressivement ?
+	•	Préférez-vous que la réponse complète apparaisse d’un coup ?
+	•	Souhaiteriez-vous pouvoir mettre la réponse en pause, revenir en arrière, ou avancer ?
+	•	Aimeriez-vous avoir une alerte pour indiquer que le chatbot a fini de répondre ?
+
+
+H10- Souhaitez-vous personnaliser l’apparence du chatbot ?
+	•	Par exemple, ajuster la taille du texte, les couleurs ou le contraste pour faciliter la lecture.
+	Cela rendrait-il l’utilisation du chatbot plus confortable pour vous ?"
+
+H20- Les messages doivent-ils être colorés ?
+	•	Pensez-vous qu’une couleur différente pour chaque participant (vous et le chatbot) aiderait à mieux suivre la conversation ?
+
+
+I10- Pensez-vous que les concepteurs de chatbots sont suffisamment attentifs aux besoins des personnes en situation de handicap ?
+
+I20- Avez-vous constaté des améliorations dans l’accessibilité des chatbots ces dernières années ?
+
+I30- Si vous aviez un message à faire passer aux développeurs de chatbots, que leur diriez-vous pour améliorer l’accessibilité ?
+
+I40- Comment imaginez vous les chatbots de demain ?
+Comment imaginez vous l’accessibilité numérique de demain ? 
+

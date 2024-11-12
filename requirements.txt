@@ -1,0 +1,6 @@
+outlines
+openai
+assemblyai
+python-dotenv
+transformers
+openpyxl

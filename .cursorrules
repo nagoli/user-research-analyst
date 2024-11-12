@@ -1,0 +1,66 @@
+**Technologies et Outils**
+
+- **Langages** : Python 3.10 ou supérieur.
+- **Frameworks** : FastAPI pour le développement de l'API.
+- **Bibliothèques** :
+  - **Whisper** : pour la transcription audio.
+  - **OpenAI GPT-4** : pour le traitement et la structuration des données.
+  - **Haystack** : pour la gestion des requêtes et la recherche d'informations.
+- **Base de données** : fichiers csv ou json
+- **Environnement Virtuel** : Utilisation de `venv` pour la gestion des dépendances.
+
+**Directives de Développement**
+
+- **Structure du Projet** :
+  - Organiser le code en modules distincts : `transcription`, `traitement`, `recherche`, `api`.
+  - Adopter une architecture MVC (Modèle-Vue-Contrôleur) pour une meilleure maintenabilité.
+
+- **Gestion des Dépendances** :
+  - Utiliser `pip` pour l'installation des packages.
+  - Maintenir un fichier `requirements.txt` à jour avec les versions spécifiques des dépendances.
+
+- **Qualité du Code** :
+  - Suivre les conventions PEP 8 pour le style de code.
+  - Ajouter des docstrings détaillés pour toutes les fonctions et classes, en respectant les conventions PEP 257.
+  - Mettre en place des tests unitaires avec `pytest` pour chaque module.
+  - Utiliser des annotations de type pour toutes les fonctions et méthodes.
+
+- **Gestion des Modèles de Langage** :
+  - Implémenter des appels asynchrones pour interagir avec les API de Whisper et GPT-4.
+  - Gérer les erreurs et exceptions lors des appels aux LLM pour assurer la robustesse de l'application.
+
+- **Sécurité et Confidentialité** :
+  - Assurer le chiffrement des données sensibles, notamment les transcriptions d'entretiens.
+  - Mettre en place des contrôles d'accès appropriés pour les différentes fonctionnalités de l'application.
+
+- **Documentation** :
+  - Maintenir une documentation claire et concise pour chaque module.
+  - Inclure des exemples d'utilisation et des guides d'installation dans le fichier `README.md`.
+
+- **Déploiement** :
+  - Utiliser Docker pour containeriser l'application.
+  - Configurer un pipeline CI/CD pour automatiser les tests et le déploiement.
+
+**Bonnes Pratiques**
+
+- **Gestion des Transcriptions** :
+  - Implémenter une file d'attente pour traiter les fichiers audio de manière asynchrone.
+  - Stocker les transcriptions dans la base de données avec des métadonnées pertinentes (date, intervenants, etc.).
+
+- **Traitement des Données** :
+  - Nettoyer et normaliser les données avant de les envoyer à GPT-4 pour structuration.
+  - Implémenter des mécanismes de validation pour les données structurées.
+
+- **Recherche d'Informations** :
+  - Configurer Haystack pour permettre des recherches efficaces dans les données structurées.
+  - Optimiser les index pour améliorer les performances des requêtes.
+
+- **Performances** :
+  - Mettre en cache les résultats des requêtes fréquentes pour réduire la charge sur les LLM.
+  - Surveiller les performances et optimiser les points de contention identifiés.
+
+- **Collaboration** :
+  - Utiliser Git pour le contrôle de version, avec des branches dédiées pour chaque fonctionnalité.
+  - Effectuer des revues de code régulières pour maintenir la qualité et la cohérence du code.
+
+En suivant ces directives, vous assurerez une base solide pour le développement de votre application, facilitant la collaboration et garantissant une maintenance efficace à long terme.
