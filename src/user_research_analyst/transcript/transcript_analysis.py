@@ -11,7 +11,6 @@ class Confidence(str, Enum):
     high = "high"
 
 class AnalysisResult(BaseModel):
-    question_id: str = Field(..., description="L'identifiant unique de la question")
     found: bool = Field(..., description="Indique si une réponse pertinente a été trouvée")
     answer: str = Field(..., description="La réponse extraite/résumée dans la langue de la question")
     confidence: Confidence = Field(..., description="Niveau de confiance dans la réponse")
@@ -59,7 +58,6 @@ class TranscriptAnalyzer:
                 return AnalysisResult(**result)
             except json.JSONDecodeError as je:
                 return AnalysisResult(
-                    question_id=question_id,
                     found=False,
                     answer=f"Error parsing JSON response: {str(je)}",
                     confidence=Confidence.low
@@ -67,7 +65,6 @@ class TranscriptAnalyzer:
                 
         except Exception as e:
             return AnalysisResult(
-                question_id=question_id,
                 found=False,
                 answer=f"API Error: {str(e)}",
                 confidence=Confidence.low
@@ -86,7 +83,7 @@ def analyze_transcript_with_questions(
     
     results = {}
     for question_tuple in questions:
-        result = analyzer.analyze_question(transcript, question_tuple)
+        result = analyzer.analyze_question(transcript, question_tuple, config.llm_context_instructions)
         results[result.question_id] = result.model_dump()
         
         # Save intermediate results

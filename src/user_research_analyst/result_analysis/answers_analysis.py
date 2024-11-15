@@ -1,6 +1,7 @@
 from openai import OpenAI
 from typing import Dict, List
 from data import SegmentDataset
+import asyncio
 
 async def generate_segment_synthesis(
     segment_name: str,
@@ -52,7 +53,7 @@ async def generate_segment_synthesis(
 
 if __name__ == "__main__":
     # Example usage
-    synthesis = await generate_segment_synthesis(
+    synthesis = asyncio.run(generate_segment_synthesis(
         segment_name="visually_impaired",
         answers={
             "Q1": ["Very positive overall", "Some navigation issues"],
@@ -62,5 +63,5 @@ if __name__ == "__main__":
             "Q1": "What is your overall experience?",
             "Q2": "What specific accessibility features did you use?"
         }
-    )
+    ))
     print(synthesis)

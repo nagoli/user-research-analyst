@@ -9,8 +9,7 @@ from typing import List, Optional
 aai.settings.api_key = os.environ.get("ASSEMBLYAI_API_KEY")
 
 def process_interview_transcript(
-    audio_file_path: str, language_code: str = "fr", word_boost: Optional[List[str]] = ["Chatbot", "technologie d’assistance", "technos d’assistance", "JAWS", "NVDA", "VoiceOver", "TalkBack", "Dragon", "BRLTTY", "System Access", "ZoomText", "Windows Magnifier", "MacOS Zoom", "Mac", "PC", "Windows", "Tobii Eye Tracker", "Tobii", "Speechify", "TextAloud", "SIRI", "Alexa", "Google Assistant", "Text-to-Speech", "Google", "OrCam", "MyEye", "eSight", "Zoom", "Google Meet", "Teams", "Skype", "Proloquo2Go", "Cortana", "Bixby", "Celia", "Robin", 
-        ]
+    audio_file_path: str, language_code: str = "fr", word_boost: Optional[List[str]] = ["Chatbot",]
 ) -> str:
     """
     Process the interview audio using AssemblyAI with speaker diarization
@@ -24,7 +23,7 @@ def process_interview_transcript(
     config = aai.TranscriptionConfig(
         speaker_labels=True,
         speakers_expected=2,
-        language_code="fr",
+        language_code=language_code,
         word_boost=word_boost
     )
     

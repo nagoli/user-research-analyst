@@ -1,18 +1,7 @@
 {
     "language_id": "fr",
     "language": "french",
-    "llm_context": {
-        "transcript_analysis": {
-            "system_message": "You are an expert in analyzing user research interviews, focusing on accessibility and user experience.",
-            "temperature": 0.3,
-            "max_tokens": 500
-        },
-        "question_analysis": {
-            "system_message": "You are a helpful assistant that analyzes user responses to specific questions about accessibility and chatbot usage.",
-            "temperature": 0.2,
-            "max_tokens": 300
-        }
-    },
+    "llm_context_instructions": "Il s’agit d’une étude sur l’accessibilité des chatbots. Tu dois extraire de façon littérale les réponses des participants en les préfixant par le type de chatbot dont il est question dans la réponse. Le type de chatbot est soit [Tous] soit [LLM] (chatgpt, Gemini, etc), soit [Assistant vocaux] (SIRI, Alexa, etc). soit [chatbot de site web] (sncf, ameli, caf, free, etc. ).",
     "word_boost": [
         "Chatbot",
         "technologie d'assistance",
@@ -26,7 +15,40 @@
         "System Access",
         "ZoomText",
         "Windows Magnifier",
-        "MacOS Zoom"
+        "MacOS Zoom",
+        "Mac",
+        "PC",
+        "Windows",
+        "Tobii Eye Tracker",
+        "Tobii",
+        "Speechify",
+        "TextAloud",
+        "SIRI",
+        "Alexa",
+        "Google Assistant",
+        "Text to Speech",
+        "Google",
+        "OrCam",
+        "MyEye",
+        "eSight",
+        "Zoom",
+        "Google Meet",
+        "Teams",
+        "Skype",
+        "Proloquo",
+        "Cortana",
+        "Bixby",
+        "Celia",
+        "Robin",
+        "ChatGPT",
+        "OpenAI",
+        "Claude",
+        "Grok",
+        "Gemini",
+        "Google Bard",
+        "Microsoft Bing",
+        "DeepSeek Coder",
+        "DeepSeek Chat"
     ],
     "debug": {
         "print_questions": false,
