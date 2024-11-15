@@ -1,0 +1,180 @@
+
+Speaker A [2183.00 - 15764.00]:
+    Bonjour, bienvenue pour cette interview. Je me présente, je m'appelle Olivier. Je voudrais savoir... Je vais vous poser quelques questions. Est-ce que vous êtes OK avec ça ?
+
+Speaker B [15774.00 - 24302.00]:
+    Oui, je suis OK avec le fait d'être interviewé.
+
+Speaker A [24382.00 - 42747.00]:
+    OK, nous allons commencer. Tout d'abord, la première question, C'est à propos de vous, quelles sont les technologies d'assistance que vous utilisez ? Et si vous pouvez nous décrire peut-être aussi votre handicap.
+
+Speaker B [42787.00 - 67350.00]:
+    Mon handicap moteur, j'ai du mal à parler, j'ai aussi du mal à bouger. Et la technologie d'assistance est un sticker pour me permettre d'interagir avec l'ordinateur alors que je ne peux pas vraiment bouger facilement toutes les parties de mon corps.
+
+Speaker A [69462.00 - 73736.00]:
+    D'accord, merci. Et en particulier, est-ce que vous avez une marque pour cette technologie d'assistance ?
+
+Speaker B [73746.00 - 83434.00]:
+    Oui, la marque, c'est... c'est... c'est assist... assistique. OK.
+
+Speaker A [83494.00 - 93172.00]:
+    Est-ce que vous pouvez nous décrire un petit peu plus votre environnement d'utilisation ? Quand est-ce que vous utilisez Internet, les sites web ou les technologies ? Plutôt à la maison ou au travail ?
+
+Speaker B [93182.00 - 111452.00]:
+    Je ne peux pas travailler, mais par contre, j'ai... J'utilise internet à la maison à peu près 2-3 fois par jour pour pouvoir communiquer avec les autres.
+
+Speaker A [112610.00 - 123407.00]:
+    Très bien. Et du coup, quels dispositifs utilisez-vous principalement ? Est-ce que c'est un ordinateur, un smartphone, une tablette ou autre ?
+
+Speaker B [123417.00 - 135924.00]:
+    Je utilise principalement mon ordinateur et aussi mon smartphone la journée. Par contre, je n'utilise pas de tablette.
+
+Speaker A [136004.00 - 157668.00]:
+    OK. Quels sont les outils d'assistance spécifiques que vous allez utiliser ? Dans les outils d'assistance spécifiques que vous utilisez, vous avez parlé du sticker, est-ce que vous pensez qu'il fonctionne bien sur tous les sites ? Est-ce qu'il y a des sites où c'est plus compliqué à utiliser que d'autres ?
+
+Speaker B [157678.00 - 182215.00]:
+    Oui, il y a des sites où je ne peux pas vraiment interagir avec l'information. Le site ne me permet pas de passer d'une image à l'autre ou de comprendre vraiment ce que je dois lire.
+
+Speaker A [182495.00 - 186814.00]:
+    Par rapport au chatbot, est-ce que vous avez déjà utilisé des chatbots et si oui, lesquels ?
+
+Speaker B [186824.00 - 199572.00]:
+    Oui, j'ai déjà utilisé Siri sur mon téléphone et aussi chat GPT une fois sur l'ordinateur.
+
+Speaker A [199632.00 - 203745.00]:
+    Et dans quel contexte les utilisez-vous, pour quoi faire ?
+
+Speaker B [203755.00 - 225002.00]:
+    Siri pour lui demander d'envoyer des messages à des gens que je connais. Sinon aussi pour lui dire de me faire un rappel, j'ai utilisé ChatGPT une fois pour lui demander une information sur comment faire une tarte aux pommes.
+
+Speaker A [225082.00 - 231355.00]:
+    Ok, très bien. Et du coup, est-ce que vous les utilisez plutôt sur votre ordinateur, sur votre smartphone ?
+
+Speaker B [231365.00 - 237169.00]:
+    Siri, j'ai smartphone. Et ordinateur, j'ai utilisé le ChatGPT.
+
+Speaker A [239738.00 - 248091.00]:
+    Comment vous sentez-vous en interagissant avec les chatbots ? Est-ce que ça vous procure des frustrations, de la satisfaction ?
+
+Speaker B [248101.00 - 253323.00]:
+    Je suis plutôt content parce que ça interagit un peu comme un humain.
+
+Speaker A [255456.00 - 263274.00]:
+    Est-ce que les chatbots sont compatibles avec vos technologies d'assistance ? Comment ça se passe au niveau de l'interaction ?
+
+Speaker B [263284.00 - 301790.00]:
+    Ce n'est pas toujours facile de savoir quand je peux prendre la main. Il y a des fois où le chatbot marche et il y a des fois où je ne peux pas aller dans... dans les autres informations. Du coup, par exemple, j'ai des chatbots que je n'ai pas évoqués, mais les chatbots de banque, souvent sur les sites web, ça ne marche pas trop bien. Du coup, je n'arrive pas vraiment à interagir avec. Ça bloque quand je passe.
+
+Speaker A [303891.00 - 331696.00]:
+    Donc vous avez d'autres chatbots que vous utilisez, ce sont les chatbots de banque, c'est bien ce que vous avez dit, et vous pouvez avoir certaines difficultés à interagir avec. Pourquoi vous avez des difficultés à interagir avec ? Est-ce que c'est des problèmes de facilité de comprendre les réponses ou est-ce qu'il y a des problèmes particuliers, type vocabulaire, réponses ambiguës ?
+
+Speaker B [331706.00 - 350221.00]:
+    Non, en fait, ce n'est pas trop les réponses. La réponse, ça va, c'est que je ne sais pas trop comment... Il ne répond pas à ma question, en fait. Il répond toujours à côté. Du coup, ça ne me convient pas.
+
+Speaker A [350521.00 - 355455.00]:
+    Il n'y a pas eu des chatbots qui vous ont posé des problématiques de compréhension ?
+
+Speaker B [355465.00 - 360950.00]:
+    Non, en général, ça marche plutôt bien. Je comprends bien ce qu'il me dit, le chatbot.
+
+Speaker A [364463.00 - 376537.00]:
+    Quelles sont les fonctionnalités qui, a priori, vous paraissent indispensables pour vous dans un chatbot ? Quels sont des exemples de sites bien conçus pour vous ?
+
+Speaker B [376547.00 - 406797.00]:
+    Moi, ce que j'aime, c'est que les chatbots soient faciles à utiliser, qu'ils soient jolis aussi. qu'il y ait un peu plus d'informations sympas, qu'ils interagissent plus facilement, et tout ça, ça me semble bien.
+
+Speaker A [409458.00 - 422211.00]:
+    En termes de qualité d'interaction, comment est-ce que vous évaluerez la qualité des interactions sur le chatbot ? Est-ce que c'est difficile d'obtenir des réponses pertinentes ou de faire des actions spécifiques ?
+
+Speaker B [422221.00 - 432104.00]:
+    Oui, des fois Siri n'est pas très réactif, ça ne marche pas très bien, il faut que je le répète plein de fois. Des fois ça marche bien, mais ce n'est pas toujours comme ça, ça dépend.
+
+Speaker A [436040.00 - 442048.00]:
+    Et qu'est-ce qui, a priori, pour vous serait l'expérience idéale ? Qu'est-ce qui rendrait l'utilisation d'un chat-bot agréable.
+
+Speaker B [442088.00 - 447375.00]:
+    Et facile pour vous ? Comme je disais, que ce soit joli, mais qu'ils comprennent bien ce que je dis.
+
+Speaker A [449568.00 - 459101.00]:
+    Quelles sont les fonctionnalités à votre avis indispensables pour un chatbot ? Pour vous, exemple de chatbot ou d'assistants vocaux, vous avez trouvé vraiment chouette ?
+
+Speaker B [459111.00 - 496502.00]:
+    Les fonctionnalités indispensables pour moi dans un chatbot, c'est le fait qu'il soit joli et qu'il comprenne ce que je dis et qu'il réponde bien. Je veux qu'il ne prenne pas trop de place sur l'écran et que pourtant je puisse parler avec lui. J'aimerais pouvoir parler avec les chatbots qui sont sur internet, parce que souvent c'est qu'à l'écrit. J'ai bien aimé ChatGPT parce qu'il répond à tout et on a l'impression de parler avec un humain.
+
+Speaker A [498693.00 - 520812.00]:
+    Et quelle serait, à votre avis, l'interaction idéale, la meilleure façon de répondre pour un chatbot ? Est-ce que vous pensez qu'il faudrait qu'il soit assez conquis, concis, plutôt exhaustif, qu'il réponde de grandes phrases, ou que ça soit plutôt léger ? Ou est-ce que vous préférez que ça soit familier ? Est-ce que vous préférez que ça soit instruit ? Est-ce que vous voudriez qu'il s'adapte ? Comment vous voudriez qu'il s'adapte ?
+
+Speaker B [520822.00 - 532582.00]:
+    Moi j'aime bien quand il répond simplement, je ne veux pas de grande phrase, je veux simple et efficace, je préfère interagir avec lui pour lui dire si ça va ou pas.
+
+Speaker A [536374.00 - 543266.00]:
+    Est-ce que vous avez déjà abandonné l'utilisation d'un chatbot à cause de difficultés spécifiques ?
+
+Speaker B [543276.00 - 554740.00]:
+    Oui, une fois à Syrie, parce que je voulais qu'il m'envoie un message et ça ne marchait pas. Du coup, j'ai dû demander à un ami qu'il m'aide.
+
+Speaker A [560414.00 - 576305.00]:
+    Quels sont les principaux freins à l'utilisation des chatbots ? Qu'est-ce qui vous empêcherait d'utiliser un chatbot par rapport à un autre système plus simple comme Internet normal par exemple ?
+
+Speaker B [576315.00 - 587860.00]:
+    L'utilité, c'est que des fois c'est bien de voir les images aussi, et sinon si tu comprends bien, ça va.
+
+Speaker A [587920.00 - 596332.00]:
+    Avez-vous rencontré des chatbots qui ne fonctionnaient pas bien avec vos technologies d'assistance ? Pouvez-vous donner des exemples ?
+
+Speaker B [596342.00 - 606004.00]:
+    Oui, une fois le chatbot de la banque, il n'a pas marché avec mon stick. Ça ne marchait pas du tout.
+
+Speaker A [608965.00 - 615756.00]:
+    Ok. Quelle fonctionnalité ou adaptation rendrait l'utilisation des chatbots plus accessible pour vous ?
+
+Speaker B [615766.00 - 619927.00]:
+    Je crois qu'il faut qu'ils comprennent tout ce que je dis, pas que la moitié.
+
+Speaker A [622274.00 - 633146.00]:
+    Avez-vous déjà utilisé un chatbot que vous avez trouvé particulièrement accessible et donc utilisable par des personnes en situation de handicap comme vous ?
+
+Speaker B [633156.00 - 650480.00]:
+    Oui, je crois que j'ai vu une fois un chatbot, mais c'était dans une démonstration dans une association avec une personne handicapée qu'utilisait, mais je ne me souviens plus le nom.
+
+Speaker A [652047.00 - 655099.00]:
+    Et pourquoi est-ce qu'à votre avis c'était bien conçu ?
+
+Speaker B [655109.00 - 666538.00]:
+    C'était très bien parce que c'était très simple les réponses et surtout ils comprenaient tout même quand je parlais pas très très bien.
+
+Speaker A [666558.00 - 673309.00]:
+    Pensez-vous que les concepteurs de chatbots sont suffisamment attentifs aux besoins des personnes en situation de handicap ?
+
+Speaker B [673319.00 - 675661.00]:
+    Je ne crois pas trop, non.
+
+Speaker A [675741.00 - 680334.00]:
+    Avez-vous constaté des améliorations dans l'accessibilité des chatbots ces dernières années ?
+
+Speaker B [680344.00 - 684526.00]:
+    Un peu des fois, mais pas toujours.
+
+Speaker A [684566.00 - 694363.00]:
+    Pas trop, trop. Si vous aviez un message à faire passer aux développeurs de chatbots, que leur diriez-vous pour améliorer l'accessibilité ?
+
+Speaker B [694373.00 - 700457.00]:
+    Je dirais, continuez. Continuez. C'est bien de penser à nous.
+
+Speaker A [701473.00 - 705247.00]:
+    Comment imaginez-vous les chatbots de demain ?
+
+Speaker B [705257.00 - 709681.00]:
+    Qu'ils soient plus partout et qu'ils comprennent tout.
+
+Speaker A [709761.00 - 714295.00]:
+    Et comment imaginez-vous l'accessibilité numérique demain ?
+
+Speaker B [714305.00 - 721611.00]:
+    Que je parle à l'ordinateur pour tout et qu'il me redonne toujours la bonne réponse.
+
+Speaker A [721671.00 - 726416.00]:
+    Ok, je vous remercie beaucoup pour votre temps et je vous souhaite une bonne journée.
+
+Speaker B [726436.00 - 727757.00]:
+    Merci à vous, à bientôt.
