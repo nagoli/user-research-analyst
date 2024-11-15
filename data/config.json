@@ -1,0 +1,36 @@
+{
+    "language": "fr",
+    "debug": {
+        "print_questions": false,
+        "print_transcripts": false,
+        "print_analysis": false,
+        "verbose": false
+    },
+    "llm_context": {
+        "transcript_analysis": {
+            "system_message": "You are an expert in analyzing user research interviews, focusing on accessibility and user experience.",
+            "temperature": 0.3,
+            "max_tokens": 500
+        },
+        "question_analysis": {
+            "system_message": "You are a helpful assistant that analyzes user responses to specific questions about accessibility and chatbot usage.",
+            "temperature": 0.2,
+            "max_tokens": 300
+        }
+    },
+    "word_boost": [
+        "Chatbot",
+        "technologie d'assistance",
+        "technos d'assistance",
+        "JAWS",
+        "NVDA",
+        "VoiceOver",
+        "TalkBack",
+        "Dragon",
+        "BRLTTY",
+        "System Access",
+        "ZoomText",
+        "Windows Magnifier",
+        "MacOS Zoom"
+    ]
+}

@@ -200,30 +200,30 @@ if __name__ == "__main__":
         interviews=[
             Interview(
                 name="Interview_001",
-                segments=["adulte", "aveugle", "malvoyant"],
+                segments=["adulte", "aveugle", "mal-voyant"],
                 answers={"Q1": "Très positive dans l'ensemble", "Q2": "Quelques problèmes de navigation", "Q3": "Difficulté avec le contraste"}
             ),
             Interview(
                 name="Interview_002",
-                segments=["enfants", "handicap moteur"],
+                segments=["enfant", "handicap moteur"],
                 answers={"Q1": "Bof pas top ", "Q2": "ca va", "Q3": "joli"}
             ),
             Interview(
                 name="Interview_003",
-                segments=["jeune", "blind", "mobility impaired"],
+                segments=["jeune", "aveugle", "handicap moteur"],
                 answers={"Q1": "cool", "Q2": "aucune", "Q3": "moche"}
             )
         ]
     )
-    normalized_dataset = normalize_segments_in_interviewdataset(dataset) if(True) else dataset
-    
-    print("Original segments:")
-    for interview in dataset.interviews:
-        print(f"{interview.name}: {interview.segments}")
-    
-    print("\nNormalized segments:")
-    for interview in normalized_dataset.interviews:
-        print(f"{interview.name}: {interview.segments}")
+    normalized_dataset = normalize_segments_in_interviewdataset(dataset) if(False) else dataset
+    if (False):
+        print("Original segments:")
+        for interview in dataset.interviews:
+            print(f"{interview.name}: {interview.segments}")
+        
+        print("\nNormalized segments:")
+        for interview in normalized_dataset.interviews:
+            print(f"{interview.name}: {interview.segments}")
 
 
     segment_dataset = create_segment_dataset(normalized_dataset)  

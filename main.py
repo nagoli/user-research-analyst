@@ -1,40 +1,181 @@
 from user_research_analyst.campaign.question_parsing import parse_questions
-from user_research_analyst.transcript.transcript_analysis import analyze_transcript_with_questions
-import json
 from user_research_analyst.transcript.transcript_builder import process_interview_transcript
-
-#import dotenv
+from user_research_analyst.transcript.transcript_analysis import analyze_transcript_with_questions
+from user_research_analyst.campaign.config import config
 from dotenv import load_dotenv
 load_dotenv()
 
+def process_interview(
+    audio_file: str,
+    questions: List[Tuple[str, str]],
+    do_transcribe: bool = False,
+    do_analyze: bool = False
+) -> None:
+    """
+    Process a single interview from audio file to analysis
+    
+    Args:
+        audio_file: Path to the audio file
+        questions: List of (question_id, question_text) tuples
+        do_transcribe: Whether to perform transcription step
+        do_analyze: Whether to perform analysis step
+    """
+    # Create directories if they don't exist
+    raw_transcript_dir = config.get_path('raw_transcript_dir')
+    structured_transcript_dir = config.get_path('structured_transcript_dir')
+    os.makedirs(raw_transcript_dir, exist_ok=True)
+    os.makedirs(structured_transcript_dir, exist_ok=True)
+    
+    # Extract interview name from audio file
+    interview_name = os.path.splitext(os.path.basename(audio_file))[0]
+    
+    # Define output files
+    raw_transcript_file = os.path.join(raw_transcript_dir, f"{interview_name}_raw.txt")
+    structured_transcript_file = os.path.join(structured_transcript_dir, f"{interview_name}_structured.txt")
+    
+    # Step 1: Generate transcript if requested
+    if do_transcribe:
+        print(f"Transcribing {interview_name}...")
+        transcript = process_interview_transcript(
+            audio_file,
+            language_code=config.language,
+            word_boost=config.word_boost
+        )
+        with open(raw_transcript_file, "w", encoding="utf-8") as f:
+            f.write(transcript)
+            
+        if config.should_debug('print_transcripts'):
+            print(f"\nTranscript for {interview_name}:")
+            print(transcript)
+    
+    # Step 2: Analyze transcript if requested
+    if do_analyze:
+        if not os.path.exists(raw_transcript_file):
+            print(f"Error: Cannot analyze {interview_name} - raw transcript not found at {raw_transcript_file}")
+            return
+            
+        print(f"Analyzing {interview_name}...")
+        results = analyze_transcript_with_questions(
+            transcript_path=raw_transcript_file,
+            questions=questions,
+            output_path=structured_transcript_file,
+            llm_context=config.get_config('llm_context.transcript_analysis', {})
+        )
+        
+        if config.should_debug('print_analysis'):
+            print(f"\nAnalysis results for {interview_name}:")
+            print(results)
 
+def process_interview_directory(
+    questions: List[Tuple[str, str]],
+    do_transcribe: bool = False,
+    do_analyze: bool = False
+) -> None:
+    """
+    Process all audio interviews in a directory
+    
+    Args:
+        questions: List of (question_id, question_text) tuples
+        do_transcribe: Whether to perform transcription step
+        do_analyze: Whether to perform analysis step
+    """
+    # Get audio directory
+    audio_dir = config.get_path('audio_dir')
+    
+    # Get all audio files
+    audio_extensions = {'.m4a', '.mp3', '.wav', '.aac'}
+    audio_files = [
+        os.path.join(audio_dir, f) 
+        for f in os.listdir(audio_dir) 
+        if os.path.splitext(f)[1].lower() in audio_extensions
+    ]
+    
+    if config.should_debug('verbose'):
+        print(f"\nFound {len(audio_files)} audio files in {audio_dir}:")
+        for f in audio_files:
+            print(f"  - {os.path.basename(f)}")
+    else:
+        print(f"Found {len(audio_files)} audio files to process")
+    
+    # Process each audio file
+    for audio_file in audio_files:
+        try:
+            process_interview(
+                audio_file=audio_file,
+                questions=questions,
+                do_transcribe=do_transcribe,
+                do_analyze=do_analyze
+            )
+        except Exception as e:
+            print(f"Error processing {audio_file}: {str(e)}")
+            if config.should_debug('verbose'):
+                import traceback
+                print(traceback.format_exc())
+
+def main(
+    root_dir: str = "data",
+    do_transcribe: bool = False,
+    do_analyze: bool = False
+) -> None:
+    """
+    Main function to process interviews
+    
+    Args:
+        root_dir: Root directory containing all project files
+        do_transcribe: Whether to perform transcription step
+        do_analyze: Whether to perform analysis step
+    """
+    try:
+        # Initialize configuration
+        config.initialize(root_dir)
+        if config.should_debug('verbose'):
+            print(f"Initialized configuration:")
+            print(f"  Root directory: {config.root_dir}")
+            print(f"  Language: {config.language}")
+            print(f"  Word boost terms: {len(config.word_boost)}")
+        else:
+            print(f"Initialized configuration: Using language '{config.language}'")
+        
+        # Parse questions (only needed for analysis)
+        questions = None
+        if do_analyze:
+            questions = parse_questions(config.get_path('question_file'))
+            if config.should_debug('print_questions'):
+                print("\nParsed questions:")
+                for qid, text in questions:
+                    print(f"{qid}: {text}")
+        
+        # Process all interviews in the audio directory
+        process_interview_directory(
+            questions=questions,
+            do_transcribe=do_transcribe,
+            do_analyze=do_analyze
+        )
+            
+    except (ValueError, FileNotFoundError, RuntimeError) as e:
+        print(f"Error: {str(e)}")
+        if config.should_debug('verbose'):
+            import traceback
+            print(traceback.format_exc())
+        return
 
 if __name__ == "__main__":
+    import argparse
+    import os
+    from typing import List, Tuple
     
+    parser = argparse.ArgumentParser(description='Process interview audio files')
+    parser.add_argument('--root-dir', default="data",
+                      help='Root directory containing all project files')
+    parser.add_argument('--transcribe', action='store_true',
+                      help='Perform transcription step')
+    parser.add_argument('--analyze', action='store_true',
+                      help='Perform analysis step')
     
+    args = parser.parse_args()
     
-    question_file = "data/questions.txt"
-    questions = parse_questions(question_file)
-    if (True): 
-        print(questions
-                     )
-    audio_path = "data/fauxinterview.m4a"
-    transcript_file = "data/transcript.txt"
-    result_file = "data/results.json"
-    
-    if(False):
-        transcript = process_interview_transcript(audio_path)
-        #store transcript in a file
-        with open(transcript_file, "w", encoding="utf-8") as f:
-            f.write(transcript)
-    
-    if(False):
-        results = analyze_transcript_with_questions(
-            transcript_path=transcript_file,
-            questions=questions,
-            output_path=result_file
-        )
-    
-  
-    
-    
+    main(
+        root_dir=args.root_dir,
+        do_transcribe=args.transcribe,
+        do_analyze=args.analyze
+    )

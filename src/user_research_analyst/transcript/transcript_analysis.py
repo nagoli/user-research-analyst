@@ -21,24 +21,21 @@ class TranscriptAnalyzer:
         """Initialize OpenAI client"""
         self.client = OpenAI()
 
-    def analyze_question(self, transcript: str, question_tuple: Tuple[str, str]) -> AnalysisResult:
-        """Analyze transcript for a specific question using GPT-4"""
-        question_id, question_text = question_tuple
+    def analyze_question(self, transcript: str, question_text: str, context_instructions: str = "") -> AnalysisResult:
         
         prompt = f"""You must respond with a valid JSON object and nothing else.
 
         Analyze the following interview transcript to find from the person who is interviewed the answer he gave to this specific question:
-        Question ID: {question_id}
         Question: {question_text}
 
         Transcript:
         {transcript}
 
-        Extract literally the relevant information that answers this question. Do not invent anything.
+        Extract literally the relevant information that answers this question. Do not invent anything. Take into account the following context instructions:
+        {context_instructions}
         
         You must respond with this exact JSON structure:
         {{
-            "question_id": "{question_id}",
             "found": boolean,
             "answer": "string with the extracted answer or explanation if not found",
             "confidence": "low" or "medium" or "high"

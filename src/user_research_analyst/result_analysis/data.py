@@ -77,6 +77,7 @@ class InterviewDataset(BaseModel):
 
 class SegmentAnswer(BaseModel):
     """Represents an answer for a specific question with summary, quote, and original rough answers"""
+    # segment_id: str = Field(..., description="stemmed version of the segment name")
     segment_name: str = Field(..., description="Name of the segment this answer relates to")
     question_id: str = Field(..., description="ID of the question this answer relates to")
     answer_summary: str = Field(..., description="Summary or main point of the answer")

@@ -1,7 +1,7 @@
 import pandas as pd
 from typing import Tuple
 from data import InterviewDataset, Question, Interview
-from segments import normalize_segments_in_interviewdataset
+from segments import normalize_segments_in_interviewdataset, create_segment_dataset
 
 
 def parse_excel_file(file_path: str) -> InterviewDataset:
@@ -55,7 +55,7 @@ def parse_excel_file(file_path: str) -> InterviewDataset:
     )
     
     # Normalize segments if needed
-    dataset = normalize_segments_in_interviewdataset(dataset)   
+    #dataset = normalize_segments_in_interviewdataset(dataset)   
     
     return dataset
 
@@ -71,15 +71,19 @@ def test_excel_parsing():
     print(f"Nombre de segments: {len(dataset.segment_set)}")
     print(f"Segments: {dataset.segment_set}")
     
-    # Afficher le premier interview
-    first_interview = dataset.interviews[0]
-    print(f"\nPremier interview:")
-    print(f"Nom: {first_interview.name}")
-    print(f"Segments: {', '.join(first_interview.segments)}")
-    for q in dataset.questions:
-        answer = first_interview.answers.get(q.id, "Non répondu")
-        print(f"Q: {q.text}")
-        print(f"R: {answer}\n")
+    # exemple de transformation de l’interviewdataset en segmentdataset
+    segment_dataset = create_segment_dataset(dataset)
+    print("\nTransformed into SegmentDataset:")
+    print(f"Number of segments: {len(segment_dataset.segments)}")
+    
+    # Print example of answers for each segment
+    for segment_name, questions in segment_dataset.segments.items():
+        print(f"\nSegment: {segment_name}")
+        for question_id, answer in questions.items():
+            print(f"  Question {question_id}:")
+            print(f"  Summary: {answer.answer_summary}")
+            print(f"  Quote: {answer.quote}")
+            print(f"  Number of answers: {len(answer.rough_answers)}")
         
 if __name__ == "__main__":
     test_excel_parsing()    
