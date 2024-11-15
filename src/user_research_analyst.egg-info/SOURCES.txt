@@ -1,0 +1,6 @@
+pyproject.toml
+setup.py
+src/user_research_analyst.egg-info/PKG-INFO
+src/user_research_analyst.egg-info/SOURCES.txt
+src/user_research_analyst.egg-info/dependency_links.txt
+src/user_research_analyst.egg-info/top_level.txt
